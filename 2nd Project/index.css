@@ -1,5 +1,32 @@
-#main-content{
+body{
+    background-color: #ffae35;
+}
+
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin: 4%;
-    font-size: 13em;
+}
+.title{
+    font-size: 66px;
+    margin-top: 40px;
+    
+}
+.counter{
+    font-size:100px;
+}
+.btn{
+    font-weight: 700;
+    background-color:#fffb39;
+    color:black;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 340px;
+    border:none;
+    cursor: pointer;
+}
+#sum{
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:8px
 }

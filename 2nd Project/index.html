@@ -4,9 +4,21 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <boby>
-        <h1 id="main-content">0</h1>
-        <div id="First-condition">
-            <button>Incrersment by 1</button>
+        <div class="container">
+        <h1 class="title">Counter</h1>
+        <h1 class="counter" id="counter">0</h1>
+
+        <div class="btn-container">
+            <button class="btn" onclick="increment()">Increase by 1</button>
+            <button class="btn" onclick="decrement()">Decrease by 1</button>
+            <button class="btn" onclick="incrementby5()">Increase by 5</button>
+            <button class="btn" onclick="decrementby10()">Decrease by 10</button>
         </div>
+        <div>
+            <input type="number" id="sum" onchange="takeinput()" placeholder="Enter any number">
+            <button class="btn" onclick="sum()">Increase by Input Time</button>
+        </div>
+        </div>
+        <script src="main.js"></script>
     </boby>
 </htlm>
