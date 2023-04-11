@@ -6,6 +6,9 @@ function increment(){
 function decrement(){
 	counter = counter - 1
 	document.getElementById("counter").innerHTML = counter;
+} 
+function reset(){
+	document.getElementById("counter").innerHTML = 0;
 }
 function incrementby5(){
 	counter = counter + 5
