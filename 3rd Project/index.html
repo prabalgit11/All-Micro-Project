@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Third Project</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="heading">
+        <h3>BILL <br>SPILL</h3>
+        </div>
+
+        <div class="container">
+            <div class="left-section">
+                <div class="label"> 
+                    <label>Bill </label>
+                </div>
+                <div class="input">
+                    <input type="number" placeholder="₹ 0.00"  id="price" onclick="input()">  
+                </div> 
+                
+                <div class="label">
+                    <label > Select tip % </label>
+                </div>
+
+                <div class="bttnContainer">
+                    <button class="btn" onclick="input(5)">5%</button>
+                    <button class="btn" onclick="input(10)">10%</button>
+                    <button class="btn" onclick="input(15)">15%</button>
+                    <br>
+                    <button class="btn" onclick="input(25)">25%</button>
+                    <button class="btn" onclick="input(50)">50%</button>
+                    <button class="btn" onclick="input(75)">75%</button> 
+                </div>
+                <br>
+                <div class="label">    
+                    <label>Number of People</label>
+                </div>  
+                
+                <div class="peoplewrapper">
+                    <input type="number" placeholder="1" id="people">
+                    <img src="Vector.png">
+                </div>
+            </div>    
+            
+            
+            <div class="right-section">
+                        <div class="right-section-1">
+                            <div>Tip Amount <br /> <span style="color:#C39FFF">/ person</span></div>
+                            <div id="tip-per-person">₹ 0.00</div>
+                        </div>
+                    
+                        <div class="right-section-2"> 
+                                <div>Total <br /><span style="color:#C39FFF"> / person</span></div>
+                                <div id="total-per-person">₹ 0.00</div>
+                        </div>
+                        <button class="reset" onclick="reset()"> RESET</button>
+            </div> 
+           
+            
+        </div>
+        
+        <script src="main.js"></script> 
+
+    </body>
+</html>
