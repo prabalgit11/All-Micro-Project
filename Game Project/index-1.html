@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Project</title>
+    <link rel="stylesheet" href="index-1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <p class="heading">ROCK<br>PAPER<br>SCISSORS</p>
+            <div class="score-board">
+                <div class="computer">
+                    <div>COMPUTER<br>SCORE</div>
+                    <div id="computer-score">0</div>
+                </div>
+                 <div class="player">
+                    <p>YOUR<br>SCORE</p>
+                    <span id="player-score">0</span>
+                 </div>
+            </div>
+        </div>  
+        <div class="game-container">
+            <div class="selector">
+                <p class="user">YOU PICKED </p>
+                <p class="pc">PC PICKED</p>
+            </div>
+        </div>
+        <div class="main-game"> 
+             <img class=triangle src="Group-1/triangle.png">
+
+            <div class="rock_icon userpick">
+                <div class="game_bttn">
+                   <img src="Group-1/rock.png">
+                </div>
+            </div>
+            <div class="sicssor_icon userpick">
+                <div class="game_bttn">
+                   <img src="Group-1/scissor.png" >
+                </div>
+            </div>
+            <div class="paper_icon userpick">
+                <div class="game_bttn">
+                   <img src="Group-1/paper.png" >
+                </div>
+            </div>
+        
+            <div class="rock_icon computerpick">
+                <div class="game_bttn">
+                   <img src="Group-1/rock.png">
+                </div>
+            </div>
+            <div class="sicssor_icon computerpick">
+                <div class="game_bttn">
+                   <img src="Group-1/scissor.png" >
+                </div>
+            </div>
+            <div class="paper_icon computerpick">
+                <div class="game_bttn">
+                   <img src="Group-1/paper.png" >
+                </div>
+            </div>
+        </div>
+
+
+        <div class="winner_side">
+            <p class="win">YOU WON <br></p>
+            <span class="against">AGAINST PC<span><br>
+            <button class="play_bttn">PLAY AGAIN</button>
+        </div>
+        <div class="tie_side">
+            <p class="tie">TIE UP</p>
+            <button class="replay_bttn">REPLAY</button>
+        </div>
+      
+
+        <div class="rule_points">
+            <h3>Game Rules</h3><br><br>
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li><br>
+                <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li><br>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li><br>
+                <li>If both players lay down the same hand, each player lays down another hand</li><br>
+              </ul>    
+              <button class="close">X</button>  
+        </div>
+
+        <button class="rules_bttn">RULES</button> 
+        <button class="rules_btn">NEXT</button>
+       
+
+    </div>
+    <script src="main-1.js"></script>
+  
+</body>
+</html>
+    
