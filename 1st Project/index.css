@@ -1,173 +1,86 @@
 body{
     margin:0;
- 
+    font-family:Inter
 }
-#upper{
- 
- background-color:#FFCD9E;
- height: 65vh;
-
+.poster{
+    background-color:#ffcd9e;
+    display:flex
 }
-#style1{
- font-family: 'Inter';
- font-size: 58;
- position: absolute;
- margin-top: 22;
- margin-left: 136;
-
+.section-left{
+    margin-top:40px;
+    margin-left:120px
 }
-#style2{
- position: absolute;
- display: flex;
- /* width: 495;
- height: 81px; */
- font-family: 'Inter';
- font-size: 26;
- margin-top: 179;
- margin-left: 136;
- 
+.header{
+    font-style:normal;
+    font-weight:700;
+    font-size:3rem;
+    color:#282828;
+    width:81%
 }
-#style3{
- position: absolute;
- font-size: 24;
- width: 227px;
- height: 81px;
- margin-left: 136px;
- margin-top: 290px;
+.info-line{
+    font-style:normal;
+    font-weight:500;
+    font-size:18px;
+    color:#484848;
+    width:63%;
+    line-height:160%
 }
-#style4{
- position: absolute;
- border:2px solid black;
- border-radius: 3px;
- width: 185;
- margin-left: 136px;
- margin-top: 320px;  
- box-sizing: border-box;
-
-}   
-#style5{
- position: absolute;
- color: white;
- border: 2px solid ;
- border-radius: 8px;
- background-color: black;
- padding: 4px;
- font-family: 'Inter';
- font-size: 19;
- position: absolute;
- width: 105px;
- height: 23px;
- left: 346px;
- top: 337px; 
-
-}   
-#style6{
- position: absolute;
- margin-left:993px;
- margin-top:19px;
- width: 234px;
- height: 349;
+.tag-line{
+    font-style:normal;
+    font-weight:800;
+    font-size:18px;
+    color:#282828
 }
-#style7{
- color: white;
- position: absolute;
- font-family: 'Inter';
- font-weight: 600;
- margin-top:345;
- margin-left: 136;
- font-size: 12;
+input{
+    height:40px;
+    background:#FFFFFF;
+    border-radius:5px;
+    padding-left:20px;
+    width:15rem;
+    margin-top:12px;
+    margin-right:12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border:3px solid #000000
+}    
+button{
+    background:#282828;
+    border:none;
+    border-radius:8px;color:#fff;
+    font-weight:700;
+    font-size:14px;
+    line-height:24px;
+    width:10em;
+    height:40px;
+    cursor:pointer
 }
-#one{
- position: absolute;
- color: white;
- margin-left:136;
- margin-top: 41;
- font-weight: 400;
- font-size: 20px;
+.bottom-line{
+    font-style:normal;
+    font-weight:500;
+    font-size:16px;
+    color:#fff;
+    margin-top:12px;
+    margin-left:20px
 }
-#two{
- position: absolute;
- color: white;
- margin-left: 136;
- margin-top: 60;
- font-weight: 400;
- font-size: 20px;
+.footer{
+    display:flex;
+    background:#282828;
+    color:#fff;
+    justify-content:space-between;
+    padding-top:40px;
+    padding-left:120px;
+    padding-right:120px
 }
-#three{
- position: absolute;
- color: white;
- margin-left: 136;
- margin-top: 77;
- font-weight: 400;
- font-size: 20px;
+.footer ul{
+    list-style:none
 }
-#four{
- position: absolute;
- color: white;
- margin-left: 136;
- margin-top: 94;
- font-weight: 400;
- font-size: 20px;
+.footer ul li{
+    margin-bottom:8px;
+    cursor:pointer
 }
-#five{
- position: absolute;
- color: white;
- margin-left: 136;
- margin-top: 111;
- font-weight: 400;
- font-size: 20px;
+.footer-list2{
+    text-align:right
 }
-#six{
- position: absolute;
- color: white;
- margin-left: 1099;
- margin-top: -40;
- 
- font-weight: 400;
- font-size: 20px;
-
-}
-#seven{
- position: absolute;
- color: white;
- margin-left: 990;
- margin-top: -7;
- font-weight: 400;
- font-size: 20px;
-}
-#eight{
- position: absolute;
- background-color:#FFCD9E;
- width: 26;
- margin-left: 1115;
- margin-top: 25;
-}
-#nine{
- position: absolute;
- background-color: #FFCD9E;
- width: 21;
- margin-left: 1156;
- margin-top: 25;
-}
-#ten{
- position: absolute;
- color:white;
- font-size: 20;
- font-weight: 400;
- width: 21;
- margin-left: 1054;
- margin-top: 112;
-
-}
-#lower{
-
- background-color: black;
- height: 40vh;
-}
-@media only screen and (max-width:700){
- #style6{
-         flex-direction: column-reverse;
-         margin-top: 45;
- }
- 
-}
+ .logo-list i {
+    color: #ffcd9e;
+} 
